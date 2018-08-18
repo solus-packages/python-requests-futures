@@ -1,0 +1,18 @@
+name       : python-requests-futures
+version    : 0.9.7
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/2c/f0/d9a6d4472286405956dd5ac6279fe932a86151df9816bc35afe601495819/requests-futures-0.9.7.tar.gz : a9ca2c3480b6fac29ec5de59c146742e2ab2b60f8c68581766094edb52ea7bad
+license    : Apache-2.0
+component  : programming.python
+summary    : Asynchronous Python HTTP Requests for Humans using Futures
+description: |
+    Small add-on for the python requests_ http library. Makes use of python 3.2’s concurrent.futures
+builddeps  :
+    - pkgconfig(python3)
+rundeps    :
+    - python-requests
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
