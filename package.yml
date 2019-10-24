@@ -1,8 +1,8 @@
 name       : python-requests-futures
-version    : 0.9.7
-release    : 1
+version    : 1.0.0
+release    : 2
 source     :
-    - https://files.pythonhosted.org/packages/2c/f0/d9a6d4472286405956dd5ac6279fe932a86151df9816bc35afe601495819/requests-futures-0.9.7.tar.gz : a9ca2c3480b6fac29ec5de59c146742e2ab2b60f8c68581766094edb52ea7bad
+    - https://files.pythonhosted.org/packages/47/c4/fd48d1ac5110a5457c71ac7cc4caa93da10a80b8de71112430e439bdee22/requests-futures-1.0.0.tar.gz : 35547502bf1958044716a03a2f47092a89efe8f9789ab0c4c528d9c9c30bc148
 license    : Apache-2.0
 component  : programming.python
 summary    : Asynchronous Python HTTP Requests for Humans using Futures
