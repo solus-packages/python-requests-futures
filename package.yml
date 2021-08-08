@@ -1,6 +1,6 @@
 name       : python-requests-futures
 version    : 1.0.0
-release    : 3
+release    : 4
 source     :
     - https://files.pythonhosted.org/packages/47/c4/fd48d1ac5110a5457c71ac7cc4caa93da10a80b8de71112430e439bdee22/requests-futures-1.0.0.tar.gz : 35547502bf1958044716a03a2f47092a89efe8f9789ab0c4c528d9c9c30bc148
 license    : Apache-2.0
